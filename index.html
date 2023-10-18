@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="JS/bootstrap.bundle.min.js">
+    <title>To Do List</title>
+</head>
+<body>
+
+    <div class="container parent" >
+        <h3 class="text">To-Do List</h3>
+        <div class="child">
+            <input type="text"  id="input-box" placeholder="     Add New Task   " required >
+            <button type="submit" onclick="addTask()" class="btn" 
+                     style="background: linear-gradient(90deg , #153677 , #4e085f);color: white; cursor: pointer;" >
+                   Add
+            </button>
+        </div>
+        <ul id="list-container"></ul>
+    </div>
+    
+
+    <script src="JS/bootstrap.bundle.js"></script>
+    <script src="JS/script.js"></script>
+</body>
+</html>
